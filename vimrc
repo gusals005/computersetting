@@ -25,6 +25,7 @@ set showmatch " 일치하는 괄호 하이라이팅
 set smartcase " 검색시 대소문자 구별
 set smarttab
 set smartindent
+set expandtab
 set softtabstop=4
 set tabstop=4
 set ruler " 현재 커서 위치 표시
