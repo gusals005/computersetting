@@ -1,4 +1,4 @@
-set rtp+=/usr/share/vim/vim80/bundle/Vundle.vim
+set rtp+=/home/ihyunmin/vim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'Raimondi/delimitMate'
@@ -19,7 +19,7 @@ set cindent " C언어 자동 들여쓰기
 set bs=eol,start,indent
 set history=256
 set laststatus=2 " 상태바 표시 항상
-"set paste " 붙여넣기 계단현상 없애기
+set paste " 붙여넣기 계단현상 없애기
 set shiftwidth=4 " 자동 들여쓰기 너비 설정
 set showmatch " 일치하는 괄호 하이라이팅
 set smartcase " 검색시 대소문자 구별
@@ -30,6 +30,7 @@ set softtabstop=4
 set tabstop=4
 set ruler " 현재 커서 위치 표시
 set incsearch
+set mouse=a
 set statusline=\ %<%l:%v\ [%P]%=%a\ %h%m%r\ %F\
 " 마지막으로 수정된 곳에 커서를 위치함
 au BufReadPost *

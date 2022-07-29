@@ -8,7 +8,7 @@ I wrote the path in the first line.
 ```
 mv vimrc ~/.vimrc    
 git clone https://github.com/VundleVim/Vundle.vim.git /yourpath/vim/bundle/Vundle.vim       
-mv jellybeans.vim /yourpath/vim/colors/jellybeans.vim          
+curl -O https://raw.githubusercontent.com/nanotech/jellybeans.vim/master/colors/jellybeans.vim > /yourpath/vim/colors/jellybeans.vim          
 rm -rf ./computersetting              
 ```                 
 
